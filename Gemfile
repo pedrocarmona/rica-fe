@@ -45,3 +45,5 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "figaro"
+
+gem "rails-i18n"
