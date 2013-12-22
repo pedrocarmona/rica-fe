@@ -45,5 +45,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem "figaro"
-
 gem "rails-i18n"
+
+#views
+gem "haml-rails"
+gem 'foundation-rails'
