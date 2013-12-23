@@ -1,2 +1,80 @@
-%h1 StaticPages#home
-%p Find me in app/views/static_pages/home.html.haml
+- title "Quinta da Rica-Fé"
+/ End Top Bar
+.row
+  .large-12.columns
+    / Content Slider
+    .row
+      .large-12.hide-for-small
+        #featured.orbit-wrapper{"data-orbit" => ""}
+          -@images.each do |file|
+            %img{alt: 'image', src: "#{file}"}
+    / End Content Slider
+    / Mobile Header
+    .row
+      .large-12.columns.show-for-small
+        %img{src: @images.first}/
+    %br/
+    / End Mobile Header
+    .row
+      .large-12.columns
+        .row
+          / Shows
+          .large-4.small-6.columns
+            %h4 Upcoming Shows
+            %hr/
+            .row
+              .large-1.column
+                %img{src: "http://placehold.it/50x50&text=[img]"}/
+              .large-9.columns
+                %h5
+                  %a{href: "#"} Venue Name
+                %h6.subheader.show-for-small Doors at 00:00pm
+            %hr/
+            .hide-for-small
+              .row
+                .large-1.column
+                  %img{src: "http://placehold.it/50x50&text=[img]"}/
+                .large-9.columns
+                  %h5.subheader
+                    %a{href: "#"} Venue Name
+              %hr/
+              .row
+                .large-1.column
+                  %img{src: "http://placehold.it/50x50&text=[img]"}/
+                .large-9.columns
+                  %h5.subheader
+                    %a{href: "#"} Venue Name
+              %hr/
+              .row
+                .large-1.column
+                  %img{src: "http://placehold.it/50x50&text=[img]"}/
+                .large-9.columns
+                  %h5.subheader
+                    %a{href: "#"} Venue Name
+          / End Shows
+          / Image
+          .large-4.small-6.columns
+            %img{src: "http://placehold.it/300x465&text=Image"}/
+          / End Image
+          / Feed
+          .large-4.small-12.columns
+            %h4 Blog
+            %hr/
+            .panel
+              %h5
+                %a{href: "#"} Post Title 1
+              %h6.subheader
+                Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
+              %h6
+                %a{href: "#"} Read More »
+            .panel.hide-for-small
+              %h5
+                %a{href: "#"} Post Title 2 »
+            .panel.hide-for-small
+              %h5
+                %a{href: "#"} Post Title 3 »
+            %a.right{href: "#"} Go To Blog »
+          / End Feed
+    / End Content
+
+
