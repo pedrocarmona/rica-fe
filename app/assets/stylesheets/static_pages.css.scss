@@ -3,5 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .orbit-wrapper {
-  height: 300px !important;
+  height: 350px !important;
 }
+
+#featured { display: none; background: #f4f4f4; height: 350px;}
+#featured img { display: none; }
+#featured.orbit { background: none; }

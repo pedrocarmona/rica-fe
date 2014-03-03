@@ -53,3 +53,5 @@ gem 'foundation-rails'
   #javascript
 gem 'jquery-turbolinks'
 
+
+gem 'rails_12factor', group: :production

@@ -1,20 +1,21 @@
 - title "Quinta da Rica-Fé"
 / End Top Bar
+/ Content Slider
+
+.hide-for-small
+  #featured.orbit-wrapper{"data-orbit" => ""}
+    -@images.each do |file|
+      %img{alt: 'image', src: "#{file}"}
+/ End Content Slider
+/ Mobile Header
+.row
+  .large-12.columns.show-for-small
+    %img{src: @images.first}/
+%br/
+/ End Mobile Header
+
 .row
   .large-12.columns
-    / Content Slider
-    .row
-      .large-12.hide-for-small
-        #featured.orbit-wrapper{"data-orbit" => ""}
-          -@images.each do |file|
-            %img{alt: 'image', src: "#{file}"}
-    / End Content Slider
-    / Mobile Header
-    .row
-      .large-12.columns.show-for-small
-        %img{src: @images.first}/
-    %br/
-    / End Mobile Header
     .row
       .large-12.columns
         .row
