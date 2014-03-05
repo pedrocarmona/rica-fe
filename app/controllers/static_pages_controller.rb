@@ -9,5 +9,7 @@ class StaticPagesController < ApplicationController
   end
 
   def explore
+    @images = Dir['public/quinta/images/*.*'].map {|f| f.sub('public','') }
+
   end
 end

@@ -1,43 +1,16 @@
-.section.after-top
-  .heading.l-page
-    %h2
-      Transitions
-      %span.amp &
-      transformations
-    %p
-      Here are some basic transformations.
-      %span#instruction-message Hover to see them work.
-    :javascript
-      $("#instruction-message").html(App.isMobile ? "Tap to see them work." : "Hover to see them work.");
-  .examples.trio.l-page.translations
-    #example-5.example.normal
-      .in
-        %h3{style: "height: 19px;"} Translate X
-        .area
-          .box
-        .code{style: "height: 19px;"}
-          %pre
-            $('.box').transition({
-            %b x: '40px'
-            });
-    #example-1.example.normal.playing
-      .in
-        %h3{style: "height: 19px;"} Translate Y
-        .area
-          .box{style: "-webkit-transform: translate(0px, 40px);"}
-          .box.ghost
-        .code{style: "height: 19px;"}
-          %pre
-            $('.box').transition({
-            %b y: '40px'
-            });
-    .example.normal
-      .in
-        %h3{style: "height: 19px;"} Translate X/Y
-        .area
-          .box
-        .code{style: "height: 19px;"}
-          %pre
-            $('.box').transition({
-            %b x: '40px', y: '40px'
-            });
+%header#fullScreen{style: "height: 770px; background: #3275a8 url(\"/images/pattern/pattern-3.png\") left repeat;"}
+  .table
+    .tableInner
+      %h1 Quinta da Rica-Fé
+      %h2
+        Uma guest house no nordeste transmontano.
+%section#content
+  -@images.each do |file|
+    %article.outOfView{style: "background-image: url(#{file}); background-size: cover; background-repeat: no-repeat; "}
+      .table
+        .tableInner
+          .wrapper
+            %img{alt: "Oracle", height: "", src: "assets/img/work/oracle/oracle-logo.svg", width: ""}/
+            %h4 Oracle Social Network is a secure private network that provides a broad range of social tools designed to capture and preserve information flowing between people, enterprise applications, and business processes.
+          / <span class="workPreview"><img src="assets/img/work/oracle/oracle-preview.jpg" /></span>
+

@@ -50,6 +50,8 @@ gem 'foundation-rails'
   #javascript
 gem 'jquery-turbolinks'
 
+gem 'modernizr-rails'
+
 
 gem 'rails_12factor', group: :production
 

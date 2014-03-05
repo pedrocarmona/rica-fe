@@ -5,7 +5,8 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
     %title= content_for?(:title) ? yield(:title) : "Rica-Fé"
     = stylesheet_link_tag    "application"
-    = javascript_include_tag "vendor/modernizr"
+    = javascript_include_tag :modernizr
+
     = csrf_meta_tags
   %body
     .contain-to-grid.sticky
