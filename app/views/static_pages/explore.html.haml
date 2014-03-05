@@ -1,9 +1,11 @@
-%header#fullScreen{style: "height: 770px; background: #3275a8 url(\"/images/pattern/pattern-3.png\") left repeat;"}
-  .table
-    .tableInner
-      %h1 Quinta da Rica-Fé
-      %h2
-        Uma guest house no nordeste transmontano.
+%header#fullScreen{style: "height: 770px"}
+  #backimg-explore
+  #text-explore
+    .table{ style: "z-index: 10;"}
+      .tableInner
+        %h1 Quinta da Rica-Fé
+        %h2
+          Uma guest house no nordeste transmontano.
 %section#content
   -@images.each do |file|
     %article.outOfView{style: "background-image: url(#{file}); background-size: cover; background-repeat: no-repeat; "}
