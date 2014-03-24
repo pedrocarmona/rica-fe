@@ -46,6 +46,7 @@ gem "rails-i18n"
 
 #views
 gem "haml-rails"
+gem 'compass-rails'
 gem 'foundation-rails'
   #javascript
 gem 'jquery-turbolinks'

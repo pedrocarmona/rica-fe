@@ -1,11 +1,29 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "compass/css3/opacity";
+@import "compass/css3/transition";
 
 .orbit-wrapper {
-  height: 350px !important;
+  .slider-nav span { @include opacity(0); @include single-transition(opacity, 400ms); }
+  &:hover .slider-nav span { @include opacity(1); }
 }
 
-#featured { display: none; background: #f4f4f4; height: 350px;}
+
+#featured { background: url(images/loading.gif) center center #000 no-repeat; height: 350px; }
 #featured img { display: none; }
+
 #featured.orbit { background: none; }
+#featured.orbit img { display: block; }
+
+.orbit-container .orbit-slides-container > * {
+  height: 400px; /* max-height if you prefer */
+
+}
+.orbit-container .orbit-slides-container img {
+  width: auto;
+}
+
+#map-canvas { height: 100% }
+
+

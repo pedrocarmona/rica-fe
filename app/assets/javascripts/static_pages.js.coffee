@@ -1,6 +1,9 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://coffeescript.org/
+
+
+
 stopOrbit = () ->
   $(".orbit-timer").click()
 
@@ -43,11 +46,16 @@ jQuery ->
       timer: true # Does the slider have a timer visible?
       variable_height: false # Does the slider have variable height content?
       swipe: true
+      captions: true
       #before_slide_change: noop # Execute a function before the slide changes
       #after_slide_change: noop # Execute a function after the slide changes
+
+
 
 
 $(window).load ->
   # then when the window has fully loaded
   startOrbit()
+
+
 
