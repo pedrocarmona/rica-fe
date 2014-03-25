@@ -10,19 +10,19 @@
 }
 
 
-#featured { background: url(images/loading.gif) center center #000 no-repeat; height: 350px; }
-#featured img { display: none; }
+#featured1 { background: url(loading.gif) center center #000 no-repeat; height: 400px; }
+#featured1 img { display: none; }
 
-#featured.orbit { background: none; }
-#featured.orbit img { display: block; }
+#featured1 { background: none; }
+#featured1 img { display: block; }
 
 .orbit-container .orbit-slides-container > * {
-  height: 400px; /* max-height if you prefer */
-
+  height: 400px;
 }
 .orbit-container .orbit-slides-container img {
   width: auto;
 }
+
 
 #map-canvas { height: 100% }
 

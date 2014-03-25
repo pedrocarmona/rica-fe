@@ -22,7 +22,7 @@
 // $rem-base: 16px;
 
 // We use this to control whether or not CSS classes come through in the gem files.
-// $include-html-classes: true;
+$include-html-classes: true;
 // $include-print-styles: true;
 // $include-html-global-classes: $include-html-classes;
 
@@ -537,15 +537,15 @@
 
 // Orbit
 
-// $include-html-orbit-classes: $include-html-classes;
+//$include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
-// $orbit-container-bg: none;
-// $orbit-caption-bg: rgba(51,51,51, 0.8);
+$orbit-container-bg: #f2f2f2;
+//$orbit-caption-bg: rgba(51,51,51, 0.8);
 // $orbit-caption-font-color: #fff;
 // $orbit-caption-font-size: rem-calc(14);
 // $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
-// $orbit-caption-padding: rem-calc(10,14);
+//$orbit-caption-padding: rem-calc(10,14);
 // $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
@@ -569,8 +569,8 @@
 // $orbit-slide-number-padding: rem-calc(5);
 
 // Graceful Loading Wrapper and preloader
-// $wrapper-class: "slideshow-wrapper";
-// $preloader-class: "preloader";
+//$wrapper-class: "slideshow-wrapper";
+//$preloader-class: "preloader";
 
 // Pagination
 
@@ -990,6 +990,7 @@
 // Sticky Class
 // $topbar-sticky-class: ".sticky";
 // $topbar-arrows: true; //Set false to remove the triangle icon from the menu item
+
 
 
 @import 'foundation';

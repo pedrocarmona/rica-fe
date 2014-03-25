@@ -3,18 +3,20 @@
 / Content Slider
 
 .hide-for-small
-  .row
-    .large-6.columns
-      #featured.orbit-wrapper{"data-orbit" => ""}
-        -@images.each do |file|
-          %img{alt: 'image', src: "#{file}", :"data-caption" => "#captionOne"}
-    .large-4.columns
-      %h5
-        %a{href: "#"} Post Title 1
-      %h6.subheader
-        Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
-      %h6
-        %a{href: "#"} Read More »
+  .row{:style=>"margin-top:50px;"}
+    %ul#featured1.data-orbit.orbit-wrapper{"data-orbit" => ""}
+      -@images.each_with_index do |file,index|
+        %li{"data-orbit-slide" => ""}
+          /%div{style:"z-index:50;padding-left:250px;"}
+          /  %h3
+          /    titulo #{index}.
+          %img{alt: 'image', src: "#{file}", alt: "#{file}",  style:"padding-left:250px;"}
+
+/            %div{"data-orbit-slide" => ""}
+/              %h2
+/                Headline 1
+/              %h3
+/                Subheadline
 / End Content Slider
 / Mobile Header
 .row
@@ -24,88 +26,57 @@
 / End Mobile Header
 
 .row
-  .large-12.columns
+  .large-5{style:"margin:0 auto;"}
+    %h1
+      Quinta da Rica-Fé
+.row
+  .large-7{style:"margin:0 auto;"}
+    %h3
+      Uma guest house no nordeste transmontano.
+
+.row
+  .large-6.columns
     .row
-      .large-12.columns
-        .row
-          / Shows
-          .large-4.small-6.columns
-            %hr/
-            .panel
-              %h4 Localização
-              %h6.subheader
-                Quinta da Rica-Fé
-                /%a{href: "http://maps.google.com/maps/api/staticmap?center=41.822142%2C-6.759664&zoom=15&format=png&maptype=satellite&mobile=true&markers=size:tiny|color:Red|label:Quinta%20da%20Rica-F%E9|&size=250x200&key=&sensor=false"}
-                /%img{src: "http://maps.google.com/maps/api/staticmap?center=41.822142%2C-6.759664&zoom=15&format=png&maptype=satellite&mobile=true&markers=size:tiny|color:Red|label:Quinta%20da%20Rica-F%E9|&size=250x200&key=AIzaSyBE-EVvSrhjfH09pYIfHtBA_htTV-1-vvU&sensor=false"}/
-              #google-map{:style=>"width:250px;height:250px;"}
-                %script{:type => "text/javascript"}
-                  //<![CDATA[
-                  function initialize() {
-                  var myOptions = {
-                  zoom: 15,
-                  center: new google.maps.LatLng(41.822142, -6.759664),
-                  mapTypeId: google.maps.MapTypeId.ROADMAP
-                  }
-                  var map = new google.maps.Map(document.getElementById("google-map"), myOptions);
-                  }
-                  function loadScript() {
-                  var script = document.createElement("script");
-                  script.type = "text/javascript";
-                  script.src = "http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyBE-EVvSrhjfH09pYIfHtBA_htTV-1-vvU&callback=initialize";
-                  document.body.appendChild(script);
-                  }
-                  window.onload = loadScript;
-                  //]]>
+      .large-3.columns
+        %img{src: "http://placehold.it/50x50&text=[img]"}/
+      .large-9.columns
+        %h5.subheader
 
-              %h6
-                Coordenadas
-                41.822142, -6.759664
-            %hr/
-            .hide-for-small
-              .row
-                .large-3.columns
-                  %img{src: "http://placehold.it/50x50&text=[img]"}/
-                .large-9.columns
-                  %h5.subheader
+    %hr/
+    .row
+      .large-3.columns
+        %img{src: "http://placehold.it/50x50&text=[img]"}/
+      .large-9.columns
+        %h5.subheader
+          %a{href: "#"} Venue Name
+    %hr/
+    .row
+      .large-3.columns
+        %img{src: "http://placehold.it/300x465&text=Image"}/
+      .large-9.columns
+        %h5.subheader
+          %a{href: "#"} Venue Name
+  .large-6.columns
+    .panel
+      %h4 Localização
+      #google-map{:style=>"width:400px;height:250px;"}
 
-              %hr/
-              .row
-                .large-3.columns
-                  %img{src: "http://placehold.it/50x50&text=[img]"}/
-                .large-9.columns
-                  %h5.subheader
-                    %a{href: "#"} Venue Name
-              %hr/
-              .row
-                .large-3.columns
-                  %img{src: "http://placehold.it/300x465&text=Image"}/
-                .large-9.columns
-                  %h5.subheader
-                    %a{href: "#"} Venue Name
-          / End Shows
-          / Image
-          .large-4.small-6.columns
-            %img{src: "http://placehold.it/300x465&text=Image"}/
-          / End Image
-          / Feed
-          .large-4.small-12.columns
-            %h4 Blog
-            %hr/
-            .panel
-              %h5
-                %a{href: "#"} Post Title 1
-              %h6.subheader
-                Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse ultrices ornare tempor...
-              %h6
-                %a{href: "#"} Read More »
-            .panel.hide-for-small
-              %h5
-                %a{href: "#"} Post Title 2 »
-            .panel.hide-for-small
-              %h5
-                %a{href: "#"} Post Title 3 »
-            %a.right{href: "#"} Go To Blog »
-          / End Feed
-    / End Content
+      %h6.subheader
+        %p
+          Quinta da Rica-Fé
+          %br
+          Estrada de Rabal
+          %br
+          5300-245 Bragança, Portugal
+      %h6
+        Coordenadas
+        %p
+        41.822142, -6.759664
+      %h6
+        %a{href: "https://www.google.pt/maps/place/41%C2%B049'19.7%22N+6%C2%B045'34.8%22W/@41.822707,-6.7607061,390m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0", :target => "_blank"} Ver no GoogleMaps
+
+
+      / End Feed
+/ End Content
 
 
