@@ -18,6 +18,8 @@ jQuery ->
   #if $("#featured").length > 0
   #  (document).addEventListener "page:load", startOrbit
 
+  loadScript()
+
   jQuery(document).foundation orbit:
       animation: "slide" # Sets the type of animation used for transitioning between slides, can also be 'fade'
       timer_speed: 2000 # Sets the amount of time in milliseconds before transitioning a slide
@@ -77,7 +79,6 @@ loadScript = ()->
 $(window).load ->
   # then when the window has fully loaded
   #startOrbit()
-  loadScript()
 
 
 
