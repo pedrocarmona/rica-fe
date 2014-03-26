@@ -8,15 +8,15 @@ stopOrbit = () ->
   $(".orbit-timer").click()
 
 startOrbit = () ->
-  #if $("#featured").length > 0
-  #  $("#featured").css "display", "block"
-  #  $("#featured").children("img").css "display", "block"
-  #  $("#featured").children("orbit").css "display", "block"
+  if $("#featured1").length > 0
+    $("#featured1").css "display", "block"
+    $("#featured1").children("li").css "display", "block"
+    $("#featured1").children("orbit").css "display", "block"
 
 
 jQuery ->
-  #if $("#featured").length > 0
-  #  (document).addEventListener "page:load", startOrbit
+  if $("#featured1").length > 0
+    (document).addEventListener "page:load", startOrbit
 
   loadScript()
 
@@ -78,7 +78,7 @@ loadScript = ()->
 
 $(window).load ->
   # then when the window has fully loaded
-  #startOrbit()
+  startOrbit()
 
 
 

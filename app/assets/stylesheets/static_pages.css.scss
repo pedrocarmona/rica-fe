@@ -11,13 +11,18 @@
 
 
 #featured1 { background: url(loading.gif) center center #000 no-repeat; height: 400px; }
-#featured1 img { display: none; }
+#featured1 li { display: none; }
 
 #featured1 { background: none; }
 #featured1 img { display: block; }
 
 .orbit-container .orbit-slides-container > * {
   height: 400px;
+}
+
+.orbit-container {
+  width: 800px;
+  margin-left: 100px;
 }
 .orbit-container .orbit-slides-container img {
   width: auto;
