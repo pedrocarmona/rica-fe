@@ -26,16 +26,17 @@
 / End Mobile Header
 
 .row.text-center
-  .large-12.columns
+  .large-12.small-12.columns
     %h1
       Quinta da Rica-Fé
 .row.text-center
-  .large-12.columns
+  .large-12.small-12.columns
     %h3
       Uma guest house no nordeste transmontano.
+    %hr.margin-bottom-40px
 
 .row
-  .large-6.columns
+  .large-6.small-12.columns
     .row
       %p
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper orci pretium nisi ultrices pellentesque. Cras cursus sagittis sapien id fermentum. Quisque pretium, nibh a eleifend elementum, neque metus rutrum turpis, sit amet lacinia nulla justo vitae elit. Suspendisse et risus ut urna tincidunt faucibus. Etiam ac aliquet libero, eu pretium metus. Vivamus luctus enim et eros pellentesque, eget lacinia elit faucibus. Duis tincidunt non enim dictum tempor.
@@ -47,11 +48,13 @@
         Donec tincidunt ac arcu a ultricies. Mauris mollis felis libero, et mattis libero tristique a. Vivamus dignissim sem in nulla porttitor, eu vestibulum urna tempus. Nullam tincidunt sem vel purus accumsan, ac pulvinar enim blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus magna vestibulum sapien dapibus, vitae cursus nibh vestibulum. Nunc pharetra eu leo eu venenatis.
       %p
         Duis vitae urna ac libero bibendum mollis. Maecenas id diam arcu. Vestibulum quis scelerisque ipsum. Nulla pulvinar convallis viverra. Etiam iaculis, ante in bibendum dignissim, metus massa placerat risus, quis sagittis metus justo at tortor. Sed semper vitae mauris eu aliquam. Suspendisse potenti. Curabitur posuere erat et condimentum adipiscing. Maecenas dictum sodales augue vitae porta. Suspendisse potenti. Nullam ultrices odio id dui bibendum, quis dapibus tellus elementum. Praesent sit amet dapibus ligula. Duis lobortis rhoncus turpis, molestie fringilla lectus pharetra vitae. Fusce euismod rutrum tincidunt.
-  .large-6.columns
+  .large-6.small-12.columns
     .panel
       %h4 Localização
-      #google-map{:style=>"width:400px;height:250px;"}
-
+      #google-map.large-5.hide-for-small{:style=>"width:400px;height:250px;"}
+      .small-10.hide-for-large.hide-for-medium
+        /%img{alt: 'image', src: #{"asds"} image-path("map_screenshot.png"), alt: "map",  style:""}
+        =image_tag asset_path('map_screenshot.png'), :size => '280x200'
       %h6.subheader
         %p
           Quinta da Rica-Fé
