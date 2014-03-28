@@ -17,18 +17,15 @@
 #featured1 img { display: block; }
 
 .orbit-container .orbit-slides-container > * {
-  height: 400px;
-}
-
-.orbit-container {
-  width: 800px;
-  margin-left: 100px;
-}
-.orbit-container .orbit-slides-container img {
-  width: auto;
+  height: auto;
 }
 
 
-#map-canvas { height: 100% }
+#google-map { height: auto }
 
+.large-centered{
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important;
+}
 

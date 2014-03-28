@@ -2,26 +2,27 @@
 / End Top Bar
 / Content Slider
 
-.hide-for-small
-  .row{:style=>"margin-top:50px;"}
-    %ul#featured1.data-orbit.orbit-wrapper{"data-orbit" => ""}
-      -@images.each_with_index do |file,index|
-        %li{"data-orbit-slide" => ""}
-          /%div{style:"z-index:50;padding-left:250px;"}
-          /  %h3
-          /    titulo #{index}.
-          %img{alt: 'image', src: "#{file}", alt: "#{file}",  style:""}
+.section{:style=>"background-color:#E0EEEE;"}
+  .hide-for-small
+    .medium-8.large-7.columns.large-centered{:style=>"padding-top:50px;padding-bottom:50px;"}
+      %ul#featured1.data-orbit.orbit-wrapper{"data-orbit" => ""}
+        -@images.each_with_index do |file,index|
+          %li{"data-orbit-slide" => ""}
+            /%div{style:"z-index:50;padding-left:250px;"}
+            /  %h3
+            /    titulo #{index}.
+            %img{alt: 'image', src: "#{file}", alt: "#{file}",  style:""}
 
-/            %div{"data-orbit-slide" => ""}
-/              %h2
-/                Headline 1
-/              %h3
-/                Subheadline
-/ End Content Slider
-/ Mobile Header
-.row
-  .large-12.columns.show-for-small
-    %img{src: @images.first}/
+  /            %div{"data-orbit-slide" => ""}
+  /              %h2
+  /                Headline 1
+  /              %h3
+  /                Subheadline
+  / End Content Slider
+  / Mobile Header
+  .row
+    .small-10.columns.show-for-small.large-centered{:style=>"padding-top:20px;padding-bottom:20px;"}
+      %img{src: @images.first}/
 %br/
 / End Mobile Header
 
@@ -39,35 +40,32 @@
   .large-6.small-12.columns
     .row
       %p
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper orci pretium nisi ultrices pellentesque. Cras cursus sagittis sapien id fermentum. Quisque pretium, nibh a eleifend elementum, neque metus rutrum turpis, sit amet lacinia nulla justo vitae elit. Suspendisse et risus ut urna tincidunt faucibus. Etiam ac aliquet libero, eu pretium metus. Vivamus luctus enim et eros pellentesque, eget lacinia elit faucibus. Duis tincidunt non enim dictum tempor.
-      %p
-        Curabitur laoreet lectus eu turpis porta, ut aliquam diam viverra. Duis suscipit mauris a nisl rhoncus, at aliquam nisi semper. Maecenas ac pellentesque metus, vel ultrices sem. Integer at lacus semper, commodo nibh a, tincidunt tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie bibendum nisi sed dictum. Vestibulum luctus hendrerit felis et bibendum. Donec blandit neque non luctus posuere. Nunc at enim lectus. Vivamus eu elit rutrum, euismod nulla a, convallis neque. Curabitur faucibus consequat nisi, quis rhoncus libero ullamcorper in.
-      %p
-        Proin in pulvinar dui. Sed in libero nulla. Phasellus tristique leo a nunc venenatis, ut gravida ligula tempus. Suspendisse non sollicitudin dolor. Fusce interdum libero vitae orci sollicitudin consectetur. Pellentesque vitae lectus sagittis, eleifend lectus a, commodo tellus. Etiam nibh turpis, tempus eu tristique a, tincidunt sed est.
-      %p
-        Donec tincidunt ac arcu a ultricies. Mauris mollis felis libero, et mattis libero tristique a. Vivamus dignissim sem in nulla porttitor, eu vestibulum urna tempus. Nullam tincidunt sem vel purus accumsan, ac pulvinar enim blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus magna vestibulum sapien dapibus, vitae cursus nibh vestibulum. Nunc pharetra eu leo eu venenatis.
-      %p
-        Duis vitae urna ac libero bibendum mollis. Maecenas id diam arcu. Vestibulum quis scelerisque ipsum. Nulla pulvinar convallis viverra. Etiam iaculis, ante in bibendum dignissim, metus massa placerat risus, quis sagittis metus justo at tortor. Sed semper vitae mauris eu aliquam. Suspendisse potenti. Curabitur posuere erat et condimentum adipiscing. Maecenas dictum sodales augue vitae porta. Suspendisse potenti. Nullam ultrices odio id dui bibendum, quis dapibus tellus elementum. Praesent sit amet dapibus ligula. Duis lobortis rhoncus turpis, molestie fringilla lectus pharetra vitae. Fusce euismod rutrum tincidunt.
+        Situada às portas da cidade de Bragança, a 5 minutos do centro da cidade e a 2 minutos de restaurantes e supermercados, a Quinta da Rica-Fé estende-se por uma área de aproximadamente de 80 hectares. A sua incontestável beleza paisagística e a riqueza histórica que encerra, fazem desta um pedaço de paraíso que vale a pena visitar.
   .large-6.small-12.columns
     .panel
-      %h4 Localização
-      #google-map.large-5.hide-for-small{:style=>"width:400px;height:250px;"}
-      .small-10.hide-for-large.hide-for-medium
-        /%img{alt: 'image', src: #{"asds"} image-path("map_screenshot.png"), alt: "map",  style:""}
-        =image_tag asset_path('map_screenshot.png'), :size => '280x200'
-      %h6.subheader
-        %p
-          Quinta da Rica-Fé
-          %br
-          Estrada de Rabal
-          %br
-          5300-245 Bragança, Portugal
-      %h6
-        Coordenadas
-        %p
-        41.822142, -6.759664
-      %h6
-        %a{href: "https://www.google.pt/maps/place/41%C2%B049'19.7%22N+6%C2%B045'34.8%22W/@41.822707,-6.7607061,390m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0", :target => "_blank"} Ver no GoogleMaps
+      .row
+        %h4.small-10.large-10.large-centered
+          Localização
+      .row
+        #google-map.large-10.large-centered.hide-for-small{:style=>"height:250px;"}
+        .small-10.hide-for-large.hide-for-medium.large-centered
+          /%img{alt: 'image', src: #{"asds"} image-path("map_screenshot.png"), alt: "map",  style:""}
+          %a{href: "https://www.google.pt/maps/place/41%C2%B049'19.7%22N+6%C2%B045'34.8%22W/@41.822707,-6.7607061,390m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0", :target => "_blank"}
+            =image_tag asset_path('map_screenshot.png'), :size => '380x200'
+      .row
+        %h6.subheader.small-10.large-10.large-centered
+          %p
+            Quinta da Rica-Fé
+            %br
+            Estrada de Rabal
+            %br
+            5300-245 Bragança, Portugal
+        %h6.small-10.large-10.large-centered
+          Coordenadas
+          %p
+          41.822142, -6.759664
+        %h6.small-10.large-10.large-centered
+          %a{href: "https://www.google.pt/maps/place/41%C2%B049'19.7%22N+6%C2%B045'34.8%22W/@41.822707,-6.7607061,390m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0", :target => "_blank"} Ver no Google Maps
 
 
       / End Feed
