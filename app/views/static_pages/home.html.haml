@@ -2,7 +2,7 @@
 / End Top Bar
 / Content Slider
 
-.section{:style=>"background-color:#E0EEEE;"}
+.section.first-page{:style=>"background-color:#E0EEEE;"}
   .hide-for-small
     .medium-8.large-7.columns.large-centered{:style=>"padding-top:50px;padding-bottom:50px;"}
       %ul#featured1.data-orbit.orbit-wrapper{"data-orbit" => ""}
@@ -40,14 +40,16 @@
   .large-6.small-12.columns
     .row
       %p
-        Situada às portas da cidade de Bragança, a 5 minutos do centro da cidade e a 2 minutos de restaurantes e supermercados, a Quinta da Rica-Fé estende-se por uma área de aproximadamente de 80 hectares. A sua incontestável beleza paisagística e a riqueza histórica que encerra, fazem desta um pedaço de paraíso que vale a pena visitar.
+        Situada às portas da cidade de Bragança, a 5 minutos do centro da cidade e a 2 minutos de restaurantes e supermercados, a Quinta da Rica-Fé estende-se por uma área de aproximadamente de 80 hectares.
+      %p
+        A sua incontestável beleza paisagística e a riqueza histórica que encerra, fazem desta um pedaço de paraíso que vale a pena visitar.
   .large-6.small-12.columns
     .panel
       .row
         %h4.small-10.large-10.large-centered
           Localização
       .row
-        #google-map.large-10.large-centered.hide-for-small{:style=>"height:250px;"}
+        #google-map.large-10.large-centered.hide-for-small{:style=>"min-width:300px;height:250px;"}
         .small-10.hide-for-large.hide-for-medium.large-centered
           /%img{alt: 'image', src: #{"asds"} image-path("map_screenshot.png"), alt: "map",  style:""}
           %a{href: "https://www.google.pt/maps/place/41%C2%B049'19.7%22N+6%C2%B045'34.8%22W/@41.822707,-6.7607061,390m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0", :target => "_blank"}

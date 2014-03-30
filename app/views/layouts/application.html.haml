@@ -6,10 +6,12 @@
     %title= content_for?(:title) ? yield(:title) : "Rica-Fé"
     = stylesheet_link_tag    "application"
     = javascript_include_tag :modernizr
+    = javascript_include_tag "application"
+
 
     = csrf_meta_tags
   %body
-    .contain-to-grid.sticky
+    .contain-to-grid
       / Navigation
       %nav.top-bar{"data-topbar" => ""}
         %ul.title-area
@@ -35,7 +37,7 @@
                   %h5
                     %a{href: "javascript:void(0)"} Back
                 %li
-                  %a{href: "#"} Quinta
+                  %a{href: "/static_pages/explore#destination"} Quinta
                 %li
                   %a{href: "#"}  História
                 %li
@@ -69,4 +71,3 @@
               %li
                 /%a{href: "#"} Link 4
 
-    = javascript_include_tag "application"
