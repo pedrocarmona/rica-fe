@@ -43,6 +43,9 @@ end
 
 gem "figaro"
 gem "rails-i18n"
+gem "world-flags"
+gem "i18n_data"
+gem 'countries_and_languages', :require => 'countries_and_languages/rails'
 
 #views
 gem "haml-rails"
