@@ -20,6 +20,8 @@ module RicaFe
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.i18n.available_locales = [:pt, :gb]
-
+    config.i18n.default_locale = :pt
+    #Adding the below makes it work as expected at heroku
+    config.i18n.locale = :pt
   end
 end
