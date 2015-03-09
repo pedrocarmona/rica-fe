@@ -9,8 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require flags/basic
- *= require flags/flags24
  *= require foundation_and_overrides
  *= require_tree .
+ *= require flags/basic
+ *= require flags/flags24
  */
