@@ -3,12 +3,13 @@
 / Content Slider
 %div{"data-magellan-expedition" => "fixed"}
   / Navigation
+  %a{:name => "home"}
   .contain-to-grid
     %nav.top-bar{"data-topbar" => ""}
       %ul.title-area
         / Title Area
         %li.name
-          %a{href: root_path}
+          %a{:href => "#home"}
             %h1.logo
               Quinta da Rica-Fé
         %li.toggle-topbar.menu-icon
