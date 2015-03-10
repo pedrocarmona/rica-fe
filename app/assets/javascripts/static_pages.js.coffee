@@ -29,7 +29,7 @@ jQuery ->
     # full page reload with locale=xx param added to url :)
     #WorldFlagsUrlHelper.reloadWithLocaleParam(country)
     # full page reload
-    window.location.href = window.location.href.split("?")[0] + "?locale=" + country;
+    window.location.href = window.location.href.split("?")[0].split("#")[0] + "?locale=" + country;
     return
 
 
