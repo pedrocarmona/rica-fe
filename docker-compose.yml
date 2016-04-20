@@ -1,0 +1,12 @@
+app:
+  image: ruby:2.3.0
+  # command: bundle check
+  # command: ./bin/start
+  working_dir: /usr/src/app
+  environment:
+    BUNDLE_PATH: /usr/src/app/.bundle
+  volumes:
+    - .:/usr/src/app
+  ports:
+    - "3000:3000"
+
