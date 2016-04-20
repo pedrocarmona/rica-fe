@@ -19,3 +19,7 @@
 /config/application.yml
 
 .DS_Store
+
+_site
+.sass-cache
+.jekyll-metadata
