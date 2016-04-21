@@ -2,4 +2,4 @@
 source "https://rubygems.org"
 
 gem "jekyll"
-# gem "rails"
+gem "jekyll-multiple-languages-plugin", :git => "https://github.com/pedrocarmona/jekyll-multiple-languages-plugin.git"

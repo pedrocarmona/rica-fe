@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/pedrocarmona/jekyll-multiple-languages-plugin.git
+  revision: 5863c7e7316eca1ad860a25f3839ddd4fe99e712
+  specs:
+    jekyll-multiple-languages-plugin (1.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -34,6 +40,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  jekyll-multiple-languages-plugin!
 
 BUNDLED WITH
    1.11.2

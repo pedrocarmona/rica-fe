@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Quinta da Rica-Fé 1
+title: Quinta da Rica-Fé
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -15,6 +15,11 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+# i18n
+languages: ["pt", "en"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
 
 # Team names, titles and social links
 people:
