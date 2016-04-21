@@ -9,9 +9,14 @@
 title: Quinta da Rica-Fé
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Quinta da Rica-Fé is a large property surrounded by nature located in Bragança. 
+  In the property guests will find an old granite fountain dating back to 1742.
+  Some rooms have a mountain view.
+  Featuring central heating, rooms here will provide guests with a flat-screen TV. 
+  Free WiFi access is available.
+  At Quinta da Rica-Fé guests will find free bikes, laundry, ironing 
+  and daily maid services. The property offers free parking on site 
+  and allows pets upon request. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -58,22 +63,17 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+    url: https://www.facebook.com/quintadaricafe/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/pedrocarmona/rica-fe/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
+  - line: Quinta Da Rica-Fé
+  - line: 5300-245 Bragança
+  - line: Portugal
+  
 # Build settings
 markdown: kramdown
 permalink: pretty
