@@ -1,0 +1,10 @@
+header:
+  booking: "Reservar"
+  facilities: "Comodidades"
+  about: "Informações turísticas"
+  team: "A equipa"
+  contact: "Contatar"
+  intro:
+    lead-in: "Quinta da Rica-Fé"
+    heading: "Uma Guest House No Nordeste Transmontano"
+    book-now-button: "Reservar agora"

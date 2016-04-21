@@ -1,0 +1,10 @@
+header:
+  booking: "Booking"
+  facilities: "Facilities"
+  about: "About"
+  team: "Team"
+  contact: "Contact"
+  intro:
+    lead-in: "Quinta da Rica-Fé"
+    heading: "A guest house in the northeast of Trás-os-Montes"
+    book-now-button: "Book now"
