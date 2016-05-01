@@ -7,8 +7,7 @@ header:
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "Uma Guest House No Nordeste Transmontano"
-    book-now-pt: "Reservar agora"
-    book-now-en: "Book now"
+    book-now: "Reservar agora"
 
 about:
   subheading: "Informação histórica da quinta."
@@ -57,3 +56,37 @@ about:
         progressivamente instalados 6ha, as condições de mercado determinaram o 
         abandono da cultura no ano 2001."
     visitus: "Venha<br>visitar-nos"
+
+facilities:
+    subheading: "Serviços disponibilizados"
+    bedrooms:
+        heading: "5 quartos"
+        body: 
+          "A Casa das Amoreiras, com 300 anos, rodeada por jardins, 
+          tem cinco quartos com casa de banho privativa sendo quatro duplos e um familiar."
+    breakfast: 
+        heading: "Pequeno almoço"
+        body: 
+          "O Pequeno-almoço tradicional com café, leite, chá, pão fresco, 
+          bolo caseiro, laranja, kiwi, frutos da época é servido no início da manhã."
+    nature:
+        heading: "Natureza"
+        body:
+          "Permite aos hóspedes usufruírem do sossego libertador proporcionado 
+        pelo canto das aves e dos repteis, da observação da flora e fauna e das estrelas."
+    bikes:
+        heading: "Desporto"
+        body:
+          "Poderá caminhar pela Quinta, visitar a Ribeira da Granja, a barragem, a pedreira, 
+          passear com bicicleta, utilizar o campo de futebol 5x5, etc."
+    history:
+        heading: "Cultura e história"
+        body: 
+          "Situada a 1500 m do centro histórico da cidade de Bragança, com museus.
+          É também possível visitar as aldeias tradicionais do Parque Natural de Montesinho."
+    events:
+        heading: "Eventos"
+        body:
+          "Temos condições e espaço para organização de eventos para grupos até 50 pessoas."
+
+

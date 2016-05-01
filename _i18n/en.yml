@@ -7,8 +7,7 @@ header:
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "A guest house in the northeast of Trás-os-Montes"
-    book-now-pt: "Reservar agora"
-    book-now-en: "Book now"
+    book-now: "Book now"
 
 about:
   subheading: "Historic information about the property."
@@ -55,5 +54,36 @@ about:
         abandonment in 2001."
     visitus: "Come<br>see us"
 
+facilities:
+    subheading: "Services provided"
+    bedrooms:
+        heading: "Five bedrooms"
+        body: 
+          "The Amoreiras House, 300 years old, is surrounded by gardens and
+          has five rooms with private bathroom - four double rooms and one family room."
+    breakfast: 
+        heading: "Breakfast"
+        body: 
+          "The breakfast is continental - with coffee, milk, tea, fresh bread, homemade cake
+          orange, kiwi, fruit of the day is served in the morning."
+    nature:
+        heading: "Nature"
+        body:
+          "Allows guests to take advantage of liberating peace provided by the singing of 
+          birds and reptiles, the observation of flora and fauna and stars."
+    bikes:
+        heading: "Sports"
+        body:
+          "You can hiking in the farm, visiting the riverside, the dam, 
+          the schist quarry, walk bike, use the indoor soccer field, etc."
+    history:
+        heading: "Culture and History"
+        body: 
+          "Situated at 1500 m from the historic center of Bragança.
+          You can also visit the traditional villages of the Montesinho Natural Park."
+    events:
+        heading: "Events"
+        body:
+          "We have conditions and space for organizing events for groups up to 50 people."
 
 
