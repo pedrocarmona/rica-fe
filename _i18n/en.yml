@@ -8,6 +8,8 @@ header:
     lead-in: "Quinta da Rica-Fé"
     heading: "A guest house in the northeast of Trás-os-Montes"
     book-now: "Book now"
+    languagelink: "/"
+    languagetext: "Linguagem em Portugues"
 
 about:
   subheading: "Historic information about the property."
@@ -86,4 +88,15 @@ facilities:
         body:
           "We have conditions and space for organizing events for groups up to 50 people."
 
+map:
+  coordenates: "Geographic coordinates"
+  gmapslink: "See in google maps"
+  
+booking:
+  subheading: "Avaliable soon. Meanwhile please"
+  contactus: "contact us"
+  
+contact:
+  subheading: "You can reach us through:"
+    
 

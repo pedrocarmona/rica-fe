@@ -27,11 +27,12 @@
                         <a class="page-scroll" href="#map">{% translate header.map %}</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#contact">{% translate header.contact %}</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#booking">{% translate header.booking %}</a>
                     </li>
-                    <!--li>
-                        <a class="page-scroll" href="#contact">{% translate header.contact %}</a>
-                    </li-->
+                    
                 </ul>
             <!-- /.navbar-collapse -->
         </div>
@@ -44,7 +45,13 @@
             <div class="intro-text">
                 <div class="intro-lead-in">{% translate header.intro.lead-in %}</div>
                 <div class="intro-heading">{% translate header.intro.heading %}</div>
-                <a href="#booking" class="page-scroll btn btn-xl">{% translate header.intro.book-now %}</a>
+                <div class="row">
+                    <a href="#booking" class="page-scroll btn btn-xl">{% translate header.intro.book-now %}</a>
+                </div>
+                <div class="row" style="margin-top: 10px;">
+                    <a href="{% translate header.intro.languagelink %}" class="btn btn-md btn-warning">{% translate header.intro.languagetext %}</a>
+                </div>
+
             </div>
         </div>
     </header>

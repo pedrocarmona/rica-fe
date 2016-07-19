@@ -8,6 +8,8 @@ header:
     lead-in: "Quinta da Rica-Fé"
     heading: "Uma Guest House No Nordeste Transmontano"
     book-now: "Reservar agora"
+    languagelink: "/en"
+    languagetext: "Change Language to English"
 
 about:
   subheading: "Informação histórica da quinta."
@@ -88,5 +90,14 @@ facilities:
         heading: "Eventos"
         body:
           "Temos condições e espaço para organização de eventos para grupos até 50 pessoas."
+map:
+  coordenates: "Coordenadas Geograficas"
+  gmapslink: "Ver no google maps"
 
+booking:
+  subheading: "Disponivel brevemente. Por enquanto, por favor"
+  contactus: "contactar-nos"
+
+contact:
+  subheading: "Estamos disponiveis através de:"
 
