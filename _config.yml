@@ -1,0 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+destination: /var/www
+
+# Site settings
+title: Quinta da Rica-Fé
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Quinta da Rica-Fé is a large property surrounded by nature located in Bragança. 
+  In the property guests will find an old granite fountain dating back to 1742.
+  Some rooms have a mountain view.
+  Featuring central heating, rooms here will provide guests with a flat-screen TV. 
+  Free WiFi access is available.
+  At Quinta da Rica-Fé guests will find free bikes, laundry, ironing 
+  and daily maid services. The property offers free parking on site 
+  and allows pets upon request. 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://quintadaricafe.pt" # the base hostname & protocol for your site
+
+# i18n
+languages: ["pt", "en"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://www.facebook.com/quintadaricafe/
+  - title: github
+    url: https://github.com/pedrocarmona/rica-fe/
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Quinta Da Rica-Fé
+  - line: 5300-245 Bragança
+  - line: Portugal
+  
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/" ]

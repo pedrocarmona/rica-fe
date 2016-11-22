@@ -1,11 +1,19 @@
-#Readme
+Rica-Fe webiste
+=======================================================
 
-#Bugs
+Developed by pedrocarmona
 
-- turbolinks googlemaps not showing
+# Thanks
 
--
+Many thanks to @y7kim by his [agency theme](https://github.com/y7kim/agency-jekyll-theme)
+And of course, to [Jekyll](https://jekyllrb.com/).
 
-#Images
+# Deployment
 
-- convert *.JPG -resize 800x400^ -gravity Center -crop 800x400+0+0 +repage image*.jpg
+navigate to container
+
+```
+JEKYLL_ENV=production bundle exec jekyll build --destination site
+```
+
+then copy all the content from site folder to the gh-pages branch.

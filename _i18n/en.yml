@@ -1,0 +1,102 @@
+header:
+  booking: "Booking"
+  facilities: "Facilities"
+  about: "About"
+  map: "Map"
+  contact: "Contact"
+  intro:
+    lead-in: "Quinta da Rica-Fé"
+    heading: "A guest house in the northeast of Trás-os-Montes"
+    book-now: "Book now"
+    languagelink: "/"
+    languagetext: "Linguagem em Portugues"
+
+about:
+  subheading: "Historic information about the property."
+  timeline:
+    naming:
+      heading: "XIII century"
+      subheading: "The origin of the property's name"
+      body:
+        "The property name was already mentioned in 1258 in the Ordinances Afonsinas. 
+        It's a combination of Rica with Fé (Faith). 
+        Rica - Poland duke's daughter - was queen of Castile (1152-1157). 
+        Saint Fé of Agen is venerated in Conques Abbey, in the French Pyrenees"
+    agriculture:
+      heading: "XIII century - XV century"
+      subheading: "Tradition of Agriculture and Livestock"
+      body: 
+        "Around 1225 the Cistercian monks of Moreiruela Granja in Zamora, 
+        acquired this property for their own food production, 
+        raising sheep. They also introduced the improvement of water use and sustainable agroforestry use. 
+        They managed this property and many others for 200 years."
+    jesuits:
+      heading: "XVI century - XVIII century"
+      subheading: "Jesuits"
+      body: 
+        "In 1571 the Jesuits obtained royal authorization to buy this property to private individuals
+        for their own production of food products, raising sheep.
+        It was also used as weekend residence for teachers of the University College of Jesus, 
+        from the city of Bragança. They build a granite fountain dating back to 1742.
+        They administered this property for 200 years, until 1759, when they abandoned Portugal
+        after persecution by the Marques of Pombal."
+    owners:
+      heading: "XVIII century - XXI century"
+      subheading: "Current owners"
+      body: 
+        "The King divided its properties in several farms. 
+        This property was acquired by the sixth grandfather of the current owners in 1780 at auction. 
+        Since then it has been in the possession of the family."
+    hoops:
+      heading: "XX century - XXI century"
+      subheading: "O lúpulo"
+      body: 
+        "In 1960 the hop culture for the manufacture of beer was initiated and
+        6ha were progressively installed. Market conditions have determined the cultivation
+        abandonment in 2001."
+    visitus: "Come<br>see us"
+
+facilities:
+    subheading: "Services provided"
+    bedrooms:
+        heading: "Five bedrooms"
+        body: 
+          "The Amoreiras House, 300 years old, is surrounded by gardens and
+          has five rooms with private bathroom - four double rooms and one family room."
+    breakfast: 
+        heading: "Breakfast"
+        body: 
+          "The breakfast is continental - with coffee, milk, tea, fresh bread, homemade cake
+          orange, kiwi, fruit of the day is served in the morning."
+    nature:
+        heading: "Nature"
+        body:
+          "Allows guests to take advantage of liberating peace provided by the singing of 
+          birds and reptiles, the observation of flora and fauna and stars."
+    bikes:
+        heading: "Sports"
+        body:
+          "You can hiking in the farm, visiting the riverside, the dam, 
+          the schist quarry, walk bike, use the indoor soccer field, etc."
+    history:
+        heading: "Culture and History"
+        body: 
+          "Situated at 1500 m from the historic center of Bragança.
+          You can also visit the traditional villages of the Montesinho Natural Park."
+    events:
+        heading: "Events"
+        body:
+          "We have conditions and space for organizing events for groups up to 50 people."
+
+map:
+  coordenates: "Geographic coordinates"
+  gmapslink: "See in google maps"
+  
+booking:
+  subheading: "Avaliable soon. Meanwhile please"
+  contactus: "contact us"
+  
+contact:
+  subheading: "You can reach us through:"
+    
+
