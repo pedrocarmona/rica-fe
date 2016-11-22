@@ -3,7 +3,6 @@ FROM ruby:2.3.0
 
 RUN mkdir -p /usr/src/app/
 RUN mkdir -p /var/www/
-RUN mkdir -p usr/src/app/site/www
 
 COPY . /usr/src/app
 
@@ -11,7 +10,7 @@ COPY . /usr/src/app
 VOLUME ["/usr/src/app", "/var/www"]
 
 ENV BUNDLE_PATH /usr/src/app/.bundle
-ENV JEKYLL_DESTINATION /usr/src/app/site/www
+ENV JEKYLL_DESTINATION /var/www
 ENV JEKYLL_HOST 0.0.0.0
 
 # Define working directory.
