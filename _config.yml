@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
   and allows pets upon request. 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://quintadaricafe.pt" # the base hostname & protocol for your site
 
 # i18n
 languages: ["pt", "en"]
