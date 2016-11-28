@@ -72,7 +72,7 @@ facilities:
         heading: "Nature"
         body:
           "Allows guests to take advantage of liberating peace provided by the singing of 
-          birds and reptiles, the observation of flora and fauna and stars."
+          birds, the observation of flora and fauna and stars."
     bikes:
         heading: "Sports"
         body:
@@ -93,8 +93,10 @@ map:
   gmapslink: "See in google maps"
   
 booking:
-  subheading: "Avaliable soon. Meanwhile please"
-  contactus: "contact us"
+  subheading: "You book through Booking.com and Airbnb. 
+    Please use the following links:"
+  contactus_text: "Or call us: "
+  contactus_link: "our contacts"
   
 contact:
   subheading: "You can reach us through:"

@@ -75,7 +75,7 @@ facilities:
         heading: "Natureza"
         body:
           "Permite aos hóspedes usufruírem do sossego libertador proporcionado 
-        pelo canto das aves e dos repteis, da observação da flora e fauna e das estrelas."
+        pelo canto das aves, da observação da flora e fauna e das estrelas."
     bikes:
         heading: "Desporto"
         body:
@@ -95,9 +95,12 @@ map:
   gmapslink: "Ver no google maps"
 
 booking:
-  subheading: "Disponivel brevemente. Por enquanto, por favor"
-  contactus: "contactar-nos"
+  subheading: "Pode fazer reserva através do Booking.com e do Airbnb. 
+    Agradecemos que utilize as seguintes hiperligações:"
+  contactus_text: "Ou através do telefone: "
+  contactus_link: "contactar-nos"
 
 contact:
   subheading: "Estamos disponiveis através de:"
+  address: "Estamos a norte da cidade junto ao IP4, km 217, nó de Bragança norte"
 
