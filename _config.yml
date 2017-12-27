@@ -25,7 +25,7 @@ url: "http://quintadaricafe.pt" # the base hostname & protocol for your site
 
 # i18n
 languages: ["pt", "en", "fr"]
-exclude_from_localizations: ["javascript", "images", "css"]
+exclude_from_localizations: ["javascript", "images", "css", "CNAME"]
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -44,4 +44,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/", "Dockerfile", "README.md", "CNAME" ]
+exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/", "Dockerfile", "README.md"]

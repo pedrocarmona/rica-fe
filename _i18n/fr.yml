@@ -5,9 +5,9 @@ header:
   map: "Localização"
   contact: "Contatos"
   language1_label: "en"
-  language1_link: "/en"
+  language1_link: "//quintadaricafe.pt/en"
   language2_label: "fr"
-  language2_link: "/fr"
+  language2_link: "//quintadaricafe.pt/fr"
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "Turismo rural junto à cidade de Bragança"
