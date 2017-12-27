@@ -4,12 +4,14 @@ header:
   about: "About"
   map: "Map"
   contact: "Contact"
+  language1_label: "pt"
+  language1_link: "/"
+  language2_label: "fr"
+  language2_link: "/fr"
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "Rural tourism just outside Bragança"
     book-now: "Book now"
-    languagelink: "/"
-    languagetext: "Linguagem em Português"
 
 about:
   subheading: "Historic information about the property."

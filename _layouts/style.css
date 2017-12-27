@@ -1,2 +1,3 @@
 {% include css/agency.css %}
+{% include css/languages.css %}
 {{ content }}

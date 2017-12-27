@@ -4,6 +4,10 @@ header:
   about: "Sobre a Quinta"
   map: "Localização"
   contact: "Contatos"
+  language1_label: "en"
+  language1_link: "/en"
+  language2_label: "fr"
+  language2_link: "/fr"
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "Turismo rural junto à cidade de Bragança"

@@ -34,7 +34,12 @@
                     <li>
                         <a class="page-scroll" href="#booking">{% translate header.booking %}</a>
                     </li>
-                    
+                    <li>
+                        <a href="{% translate header.language1_link %}"><span class="lang-lg" lang="{% translate header.language1_label %}"></span></a>
+                    </li>
+                    <li>
+                        <a href="{% translate header.language2_link %}"><span class="lang-lg" lang="{% translate header.language2_label %}"></span></a>
+                    </li>
                 </ul>
             <!-- /.navbar-collapse -->
             </div>
@@ -51,10 +56,6 @@
                 <div class="row">
                     <a href="#booking" class="page-scroll btn btn-xl">{% translate header.intro.book-now %}</a>
                 </div>
-                <div class="row" style="margin-top: 10px;">
-                    <a href="{% translate header.intro.languagelink %}" class="btn btn-md btn-warning">{% translate header.intro.languagetext %}</a>
-                </div>
-
             </div>
         </div>
     </header>
