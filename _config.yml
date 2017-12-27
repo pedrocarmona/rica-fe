@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-destination: public
+destination: docs
 
 # Site settings
 title: Quinta da Rica-Fé
@@ -44,4 +44,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/" ]
+exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/", "Dockerfile", "README.md" ]
