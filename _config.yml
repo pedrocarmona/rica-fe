@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://quintadaricafe.pt" # the base hostname & protocol for your site
 
 # i18n
-languages: ["pt", "en"]
+languages: ["pt", "en", "fr"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)

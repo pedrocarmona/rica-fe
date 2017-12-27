@@ -1,0 +1,111 @@
+header:
+  booking: "Reservar"
+  facilities: "Instalações"
+  about: "Sobre a Quinta"
+  map: "Localização"
+  contact: "Contatos"
+  language1_label: "en"
+  language1_link: "/en"
+  language2_label: "fr"
+  language2_link: "/fr"
+  intro:
+    lead-in: "Quinta da Rica-Fé"
+    heading: "Turismo rural junto à cidade de Bragança"
+    book-now: "Reservar agora"
+    languagelink: "/en"
+    languagetext: "Change Language to English"
+
+about:
+  subheading: "Informação histórica da quinta."
+  timeline:
+    naming:
+      heading: "Século XIII"
+      subheading: "A origem do nome da Quinta"
+      body:
+        "O nome da Quinta é citado já em 1258 nas Ordenações Afonsinas.
+        É formado pela combinação de Rica com Fé.
+        Dona Rica, filha do duque da Polónia foi rainha de Castela (de 1152 a 1157).
+        Santa Fé de Agen que é venerada na Abadia de Conques, nos Pireneus Franceses"
+    agriculture:
+      heading: "Século XIII - Século XV"
+      subheading: "Tradição em Agricultura e Pecuária"
+      body:
+        "Cerca de 1225 os Monges Cistercienses da Granja de Moreiruela, em Zamora,
+        adquiriram esta Quinta para produção própria de bens alimentares, criação de ovelhas
+        e introduziram a melhoria do uso da água e a utilização agroflorestal sustentável.
+        Esta compra terá sido patrocinada pela Infanta Teresa Sanches de Portugal.
+        Administraram a Quinta e muitas outras que possuíam nos concelhos de Bragança
+        e Miranda do Douro, durante 200 anos."
+    jesuits:
+      heading: "Século XVI - Século XVIII"
+      subheading: "Padres Jesuítas"
+      body:
+        "Em 1571 os Padres Jesuítas obtiveram autorização régia para comprarem esta
+        Quinta a particulares, para produção própria dos bens alimentares,
+        criação de ovelhas. Era também utilizada como residência de fim de semana
+        dos professores de Colégio Universitário de Jesus que tinham na cidade de Bragança.
+        Construiram uma fonte de granito em 1742.
+        Administraram a Quinta durante 200 anos, até 1759, quando abandonaram Portugal
+        após a perseguição movida pelo Marquês de Pombal"
+    owners:
+      heading: "Século XVIII - Século XXI"
+      subheading: "Actuais donos"
+      body:
+        "O Rei repartiu as suas propriedades em diversas Quintas, tendo esta sido
+        adquirida pelo sexto avô dos atuais donos, em 1780, em hasta pública.
+        Desde essa data tem estado na posse da Família."
+    hoops:
+      heading: "Século XX - Século XXI"
+      subheading: "O lúpulo"
+      body:
+        "Em 1960 foi iniciada a cultura do lúpulo para o fabrico da cerveja e
+        progressivamente instalados 6ha, as condições de mercado determinaram o
+        abandono da cultura no ano 2001."
+    visitus: "Venha<br>visitar-nos"
+
+facilities:
+    subheading: "Serviços disponibilizados"
+    bedrooms:
+        heading: "5 quartos"
+        body:
+          "A Casa das Amoreiras, com 300 anos, rodeada por jardins,
+          tem cinco quartos com casa de banho privativa sendo quatro duplos e um familiar."
+    breakfast:
+        heading: "Pequeno almoço"
+        body:
+          "O Pequeno-almoço tradicional com café, leite, chá, pão fresco,
+          bolo caseiro, laranja, kiwi, frutos da época é servido no início da manhã."
+    nature:
+        heading: "Natureza"
+        body:
+          "Permite aos hóspedes usufruírem do sossego libertador proporcionado
+        pelo canto das aves, da observação da flora e fauna e das estrelas."
+    bikes:
+        heading: "Desporto"
+        body:
+          "Poderá caminhar pela Quinta, visitar a Ribeira da Granja, a barragem, a pedreira,
+          passear com bicicleta, utilizar o campo de futebol 5x5, etc."
+    history:
+        heading: "Cultura e história"
+        body:
+          "Situada a 1500 m do centro histórico da cidade de Bragança, com museus.
+          É também possível visitar as aldeias tradicionais do Parque Natural de Montesinho."
+    events:
+        heading: "Eventos"
+        body:
+          "Temos condições e espaço para organização de eventos para grupos até 50 pessoas."
+map:
+  coordenates: "Coordenadas Geograficas"
+  gmapslink: "Ver no google maps"
+
+booking:
+  subheading: "Pode fazer reserva através do Booking.com e do Airbnb.
+    Agradecemos que utilize as seguintes hiperligações:"
+  contactus_text: "Ou através do telefone: "
+  contactus_link: "contactar-nos"
+  airbnb_link: "https://www.airbnb.pt/rooms/15885810"
+
+contact:
+  subheading: "Estamos disponiveis através de:"
+  address: "Estamos a norte da cidade junto ao IP4, km 217, nó de Bragança norte"
+
