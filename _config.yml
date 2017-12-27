@@ -5,20 +5,20 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-destination: /var/www
+destination: public
 
 # Site settings
 title: Quinta da Rica-Fé
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Quinta da Rica-Fé is a large property surrounded by nature located in Bragança. 
+  Quinta da Rica-Fé is a large property surrounded by nature located in Bragança.
   In the property guests will find an old granite fountain dating back to 1742.
   Some rooms have a mountain view.
-  Featuring central heating, rooms here will provide guests with a flat-screen TV. 
+  Featuring central heating, rooms here will provide guests with a flat-screen TV.
   Free WiFi access is available.
-  At Quinta da Rica-Fé guests will find free bikes, laundry, ironing 
-  and daily maid services. The property offers free parking on site 
-  and allows pets upon request. 
+  At Quinta da Rica-Fé guests will find free bikes, laundry, ironing
+  and daily maid services. The property offers free parking on site
+  and allows pets upon request.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://quintadaricafe.pt" # the base hostname & protocol for your site
@@ -39,7 +39,7 @@ address:
   - line: Quinta Da Rica-Fé
   - line: 5300-245 Bragança
   - line: Portugal
-  
+
 # Build settings
 markdown: kramdown
 permalink: pretty
