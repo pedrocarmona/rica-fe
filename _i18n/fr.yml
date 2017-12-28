@@ -1,111 +1,125 @@
 header:
-  booking: "Reservar"
-  facilities: "Instalações"
-  about: "Sobre a Quinta"
-  map: "Localização"
-  contact: "Contatos"
-  language1_label: "en"
-  language1_link: "//quintadaricafe.pt/en"
-  language2_label: "fr"
-  language2_link: "//quintadaricafe.pt/fr"
+  booking: "La réservation"
+  facilities: "Les aménagements"
+  about: "Sur la ferme"
+  map: "Emplacement"
+  contact: "Le contact"
+  language1_label: "pt"
+  language1_link: "/"
+  language2_label: "en"
+  language2_link: "/en"
   intro:
-    lead-in: "Quinta da Rica-Fé"
-    heading: "Turismo rural junto à cidade de Bragança"
-    book-now: "Reservar agora"
-    languagelink: "/en"
-    languagetext: "Change Language to English"
+    lead-in: "Ferme de la Rica-Fé"
+    heading: "Tourisme rural à cote de la ville de Bragança"
+    book-now: "Reserve maintenant"
 
 about:
-  subheading: "Informação histórica da quinta."
+  subheading: "Informations historiques sur la ferme"
   timeline:
     naming:
-      heading: "Século XIII"
-      subheading: "A origem do nome da Quinta"
+      heading: "13ème siècle"
+      subheading: "L'origine du nom de la Ferme"
       body:
-        "O nome da Quinta é citado já em 1258 nas Ordenações Afonsinas.
-        É formado pela combinação de Rica com Fé.
-        Dona Rica, filha do duque da Polónia foi rainha de Castela (de 1152 a 1157).
-        Santa Fé de Agen que é venerada na Abadia de Conques, nos Pireneus Franceses"
+        "Le nom de la Quinta RICAFÉ est déjà mentionné en 1258 dans les
+        Ordinations Afonsines. Il est formé par la combinaison de Rica avec Foi
+        Dona Rica, fille du duc de Pologne était reine de Castille (de 1152 à 1157).
+        Santa Foi de Agen est vénérée à l'Abbaye de Conques, dans les Pyrénées françaises"
     agriculture:
-      heading: "Século XIII - Século XV"
+      heading: "13ème siècle - 15ème siècle"
       subheading: "Tradição em Agricultura e Pecuária"
       body:
-        "Cerca de 1225 os Monges Cistercienses da Granja de Moreiruela, em Zamora,
-        adquiriram esta Quinta para produção própria de bens alimentares, criação de ovelhas
-        e introduziram a melhoria do uso da água e a utilização agroflorestal sustentável.
-        Esta compra terá sido patrocinada pela Infanta Teresa Sanches de Portugal.
-        Administraram a Quinta e muitas outras que possuíam nos concelhos de Bragança
-        e Miranda do Douro, durante 200 anos."
+        "Vers 1225 les moines cisterciens de Granja de Moreiruela, à Zamora,
+        acquis cette ferme pour leur propre production de produits alimentaires,
+        élevant des moutons et introduit une meilleure utilisation de l'eau et
+        une agroforesterie durable. Cet achat sera parrainé par Infanta Teresa
+        Sanches du Portugal. Ils ont administré la Quinta et beaucoup d'autres
+        qu'ils possédaient dans les mairies de Bragança et Miranda do Douro
+        depuis 200 ans"
+
     jesuits:
-      heading: "Século XVI - Século XVIII"
-      subheading: "Padres Jesuítas"
+      heading: "16ème siècle - 18ème siècle"
+      subheading: "Pères Jésuites"
       body:
-        "Em 1571 os Padres Jesuítas obtiveram autorização régia para comprarem esta
-        Quinta a particulares, para produção própria dos bens alimentares,
-        criação de ovelhas. Era também utilizada como residência de fim de semana
-        dos professores de Colégio Universitário de Jesus que tinham na cidade de Bragança.
-        Construiram uma fonte de granito em 1742.
-        Administraram a Quinta durante 200 anos, até 1759, quando abandonaram Portugal
-        após a perseguição movida pelo Marquês de Pombal"
+        "En 1571, les PèresJjésuites obtiennent l'autorisation royale d'acheter
+        cette ferme aux particuliers, pour sa propre production de nourriture,
+        et creation de moutons. Il a également été utilisé comme une résidence
+        de week-end des professeurs du Collège Universitaire de Jesús qu'ils
+        avaient dans le centre ville de Bragança. Ils ont construit une
+        fontaine de granit en 1742. Ils ont administré la ferme pendant 200 ans,
+        jusqu'en 1759, quand ils ont quitté le Portugal après la persécution du
+        marquis de Pombal"
+
     owners:
-      heading: "Século XVIII - Século XXI"
-      subheading: "Actuais donos"
+      heading: 18ème siècle - 21ème siècle"
+      subheading: "Propriétaires actuels"
       body:
-        "O Rei repartiu as suas propriedades em diversas Quintas, tendo esta sido
-        adquirida pelo sexto avô dos atuais donos, em 1780, em hasta pública.
-        Desde essa data tem estado na posse da Família."
+        "Le roi a divisé le domaineJesuite en plusieurs fermes, Cette ferme a été
+        acquis par le sixième grand-père des propriétaires actuels, en 1770,
+        par adjudication publique. Depuis cette date, il est en possession de
+        la famille"
+
     hoops:
-      heading: "Século XX - Século XXI"
-      subheading: "O lúpulo"
+      heading: 20ème siècle - 21ème siècle"
+      subheading: "Le houblon"
       body:
-        "Em 1960 foi iniciada a cultura do lúpulo para o fabrico da cerveja e
-        progressivamente instalados 6ha, as condições de mercado determinaram o
-        abandono da cultura no ano 2001."
-    visitus: "Venha<br>visitar-nos"
+        "La culture du houblon a commencé en 1960. Le houblon est un élément
+        utilisé dans le brassage. Plus de 40 ans, 6ha ont été progressivement installés.
+        Les conditions du marché ont déterminé l'abandon du culture en 2001.
+        La mémoire de la culture est préservée et peut être reprise."
+    visitus: "Venez nous<br>rendre visite"
 
 facilities:
-    subheading: "Serviços disponibilizados"
+    subheading: "Services fournis"
     bedrooms:
-        heading: "5 quartos"
+        heading: "5 chambres"
         body:
-          "A Casa das Amoreiras, com 300 anos, rodeada por jardins,
-          tem cinco quartos com casa de banho privativa sendo quatro duplos e um familiar."
+          "Maison des muriers, vieille de 300 ans, reconstruit, a 150 m de la
+          ville, entourée de jardins, Il a cinq chambres avec salle de bain
+          privée, étant quatre doubles et une chambre pour une famille"
     breakfast:
-        heading: "Pequeno almoço"
+        heading: "Petit dejeneur"
         body:
-          "O Pequeno-almoço tradicional com café, leite, chá, pão fresco,
-          bolo caseiro, laranja, kiwi, frutos da época é servido no início da manhã."
+          "Le petit déjeuner traditionnel avec du café, du lait, du thé, du pain frais,
+          Gâteau maison, orange, kiwi, fruits de saison sont servis de 9h à 11h.
+          "
     nature:
-        heading: "Natureza"
+        heading: "Nature"
         body:
-          "Permite aos hóspedes usufruírem do sossego libertador proporcionado
-        pelo canto das aves, da observação da flora e fauna e das estrelas."
+          "Permet aux clients de profiter de la paix libératrice fournie par le
+          chant d'oiseau, la observation de la flore et de la faune et des étoiles
+          "
+
     bikes:
-        heading: "Desporto"
+        heading: "Sports"
         body:
-          "Poderá caminhar pela Quinta, visitar a Ribeira da Granja, a barragem, a pedreira,
-          passear com bicicleta, utilizar o campo de futebol 5x5, etc."
+          "Vous pouvez vous promener dans la ferme, visiter lle ruisseau de la
+          Granja, le barrage, la carrière, faire du vélo, utiliser le parcours,
+          jouer futsal, badmington, etc."
+
     history:
-        heading: "Cultura e história"
+        heading: "Território e cultura"
         body:
-          "Situada a 1500 m do centro histórico da cidade de Bragança, com museus.
-          É também possível visitar as aldeias tradicionais do Parque Natural de Montesinho."
+          "Situada a 200 m a norte da cidade, a 1500 m do centro histórico e
+          dos museus de Bragança. Podem visitar as aldeias e vilas tradicionais
+          dos Parques Naturais de Montesinho, Douro Internacional e Vale do Tua."
     events:
-        heading: "Eventos"
+        heading: "Events"
         body:
-          "Temos condições e espaço para organização de eventos para grupos até 50 pessoas."
+          "Nous avons des conditions et de l'espace pour organiser des événements
+          pour des groupes de 50 personnes maximum."
 map:
-  coordenates: "Coordenadas Geograficas"
-  gmapslink: "Ver no google maps"
+  coordenates: "Coordonnées Géographiques"
+  gmapslink: "ver pas de Google Maps"
 
 booking:
-  subheading: "Pode fazer reserva através do Booking.com e do Airbnb.
-    Agradecemos que utilize as seguintes hiperligações:"
-  contactus_text: "Ou através do telefone: "
-  contactus_link: "contactar-nos"
-  airbnb_link: "https://www.airbnb.pt/rooms/15885810"
+  subheading:
+    "Vous pouvez faire une réservation via ce site, à partir de
+    Booking.com et Airbnb"
+  contactus_text: "Ou par téléphone: "
+  contactus_link: "contactez-nous"
+  airbnb_link: "https://www.airbnb.fr/rooms/15885810"
 
 contact:
-  subheading: "Estamos disponiveis através de:"
-  address: "Estamos a norte da cidade junto ao IP4, km 217, nó de Bragança norte"
+  subheading: "Nous sommes disponibles via"
+  address: "Nous sommes au nord de la ville à côté de l'IP4, km 217, noeud nord de Bragance"
 

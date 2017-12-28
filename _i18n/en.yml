@@ -5,9 +5,9 @@ header:
   map: "Map"
   contact: "Contact"
   language1_label: "pt"
-  language1_link: "//quintadaricafe.pt/"
+  language1_link: "/"
   language2_label: "fr"
-  language2_link: "//quintadaricafe.pt/"
+  language2_link: "/fr"
   intro:
     lead-in: "Quinta da Rica-Fé"
     heading: "Rural tourism just outside Bragança"
@@ -20,18 +20,20 @@ about:
       heading: "XIII century"
       subheading: "The origin of the property's name"
       body:
-        "The property name was already mentioned in 1258 in the Ordinances Afonsinas.
-        It's a combination of Rica with Fé (Faith).
-        Rica - Poland duke's daughter - was queen of Castile (1152-1157).
-        Saint Fé of Agen is venerated in Conques Abbey, in the French Pyrenees"
+        "The name of the Quinta RICA-FÉ is mentioned already in 1258 in the Afonsine Ordinations.
+        It is formed by the combination of Rich with Faith (Saint Foi).
+        Dona Rica, daughter of the Duke of Poland was queen of Castile (from 1152 to 1157).
+        Saint Foi de Agen is venerated in the Abbey of Conques, in the French Pyrenees"
     agriculture:
       heading: "XIII century - XV century"
       subheading: "Tradition of Agriculture and Livestock"
       body:
-        "Around 1225 the Cistercian monks of Moreiruela Granja in Zamora,
-        acquired this property for their own food production,
-        raising sheep. They also introduced the improvement of water use and sustainable agroforestry use.
-        They managed this property and many others for 200 years."
+        "Around 1225 the Cistercian monks of Granja de Moreiruela, in Zamora,
+        acquired this farm for their own production of food products, raising sheep
+        and introduced improved water use and sustainable agroforestry.
+        This purchase will be sponsored by Infanta Teresa Sanches from Portugal.
+        They administered the farm and many others they owned in the municipalities of Bragança
+        and Miranda do Douro for 200 years"
     jesuits:
       heading: "XVI century - XVIII century"
       subheading: "Jesuits"
@@ -51,12 +53,13 @@ about:
         Since then it has been in the possession of the family."
     hoops:
       heading: "XX century - XXI century"
-      subheading: "O lúpulo"
+      subheading: "Hops"
       body:
-        "In 1960 the hop culture for the manufacture of beer was initiated and
-        6ha were progressively installed. Market conditions have determined the cultivation
-        abandonment in 2001."
-    visitus: "Come<br>see us"
+        “Hop cultivation began in 1960. Hops are an element used in brewing.
+        Over 40 years, 6ha have been progressively installed. Market conditions have
+        determined the culture in 2001. The memory of the culture is preserved and can be resumed."
+
+    visitus: "Come<br>visit us"
 
 facilities:
     subheading: "Services provided"
@@ -83,8 +86,10 @@ facilities:
     history:
         heading: "Culture and History"
         body:
-          "Situated at 1500 m from the historic center of Bragança.
-          You can also visit the traditional villages of the Montesinho Natural Park."
+          "Located 200m in the north of the city, and 1500m from the historical
+          centerand the museums of Bragança. You may also visit the traditional
+          villages of the Montesinho Natural Park, Douro River Park and Tua River Park."
+
     events:
         heading: "Events"
         body:
