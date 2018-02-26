@@ -27,6 +27,6 @@ $(function() {
   var script;
   script = document.createElement("script");
   script.type = "text/javascript";
-  script.src = "http://maps.google.com/maps/api/js?key=AIzaSyBE-EVvSrhjfH09pYIfHtBA_htTV-1-vvU&callback=initializeMap";
+  script.src = "https://maps.google.com/maps/api/js?key=AIzaSyBE-EVvSrhjfH09pYIfHtBA_htTV-1-vvU&callback=initializeMap";
   document.body.appendChild(script);
 });
