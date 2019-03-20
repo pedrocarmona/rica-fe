@@ -25,3 +25,5 @@ _site
 .jekyll-metadata
 /output/html
 /public/
+
+/vendor/bundle

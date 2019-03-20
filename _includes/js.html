@@ -17,3 +17,39 @@
     <script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/google_map.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/language.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/siema.min.js" | prepend: site.baseurl }}"></script>
+
+    <script>
+      //var mySiema = new Siema({
+      //  selector: '.siema',
+      //  duration: 200,
+      //  easing: 'ease-out',
+      //  perPage: 1,
+      //  startIndex: 0,
+      //  draggable: true,
+      //  multipleDrag: true,
+      //  threshold: 20,
+      //  loop: true,
+      //  rtl: false,
+      //  onInit: () => {},
+      //  onChange: () => {},
+      //});
+
+      const slideshow = new Siema({
+        selector: '.slider',
+        loop: true,
+        draggable: true,
+        threshold: 200
+      });
+
+      $(".prev").on("click", function() {
+        slideshow.prev();
+      });
+
+      $(".next").on("click", function() {
+        slideshow.next();
+      });
+
+      setInterval(() => slideshow.next(), 2000);
+    </script>
+

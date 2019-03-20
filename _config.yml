@@ -44,4 +44,4 @@ address:
 markdown: kramdown
 permalink: pretty
 
-exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/", "Dockerfile", "README.md"]
+exclude: [ "docker-compose.yml", "bin/", "Gemfile", "Gemfile.lock", "output/", "Dockerfile", "README.md", "vendor/"]
