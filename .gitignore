@@ -27,3 +27,5 @@ _site
 /public/
 
 /vendor/bundle
+
+.jekyll-cache/
