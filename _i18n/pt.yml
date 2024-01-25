@@ -3,11 +3,11 @@ wip:
   subheading: "Por favor volte mais tarde"
 
 header:
-  booking: "Reservar"
   facilities: "Instalações"
   about: "Sobre a Quinta"
   map: "Localização"
   contact: "Contatos"
+  sliders: "Galeria"
   language1_label: "en"
   language1_link: "/en"
   language2_label: "fr"
@@ -102,14 +102,9 @@ map:
   coordenates: "Coordenadas Geograficas"
   gmapslink: "Ver no google maps"
 
-booking:
-  subheading: "Pode fazer reserva através do Booking.com e do Airbnb.
-    Agradecemos que utilize as seguintes hiperligações:"
-  contactus_text: "Ou através do telefone: "
-  contactus_link: "contactar-nos"
-  airbnb_link: "https://www.airbnb.pt/rooms/15885810"
-
 contact:
   subheading: "Estamos disponiveis através de:"
-  address: "Estamos a norte da cidade junto ao IP4, km 217, nó de Bragança norte"
+  address_text: "Estamos a norte da cidade junto ao IP4, km 217, nó de Bragança norte"
+  phone_costs: "Chamada para rede móvel nacional"
+  address: "Localização"
 

@@ -3,11 +3,11 @@ wip:
   subheading: "Veuillez revenir plus tard..."
 
 header:
-  booking: "La réservation"
   facilities: "Les aménagements"
   about: "Sur la ferme"
   map: "Emplacement"
   contact: "Le contact"
+  sliders: "Galerie"
   language1_label: "pt"
   language1_link: "/"
   language2_label: "en"
@@ -116,15 +116,9 @@ map:
   coordenates: "Coordonnées Géographiques"
   gmapslink: "ver pas de Google Maps"
 
-booking:
-  subheading:
-    "Vous pouvez faire une réservation via ce site, à partir de
-    Booking.com et Airbnb"
-  contactus_text: "Ou par téléphone: "
-  contactus_link: "contactez-nous"
-  airbnb_link: "https://www.airbnb.fr/rooms/15885810"
-
 contact:
   subheading: "Nous sommes disponibles via"
-  address: "Nous sommes au nord de la ville à côté de l'IP4, km 217, noeud nord de Bragance"
+  address_text: "Nous sommes au nord de la ville à côté de l'IP4, km 217, noeud nord de Bragance"
+  phone_costs: "Coût des appels vers le réseau mobile national portugais"
+  address: "Emplacement"
 

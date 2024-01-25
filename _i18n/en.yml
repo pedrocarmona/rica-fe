@@ -3,11 +3,11 @@ wip:
   subheading: "Please return later..."
 
 header:
-  booking: "Booking"
   facilities: "Facilities"
   about: "About"
   map: "Map"
   contact: "Contact"
+  sliders: "Gallery"
   language1_label: "pt"
   language1_link: "/"
   language2_label: "fr"
@@ -103,14 +103,8 @@ map:
   coordenates: "Geographic coordinates"
   gmapslink: "See in google maps"
 
-booking:
-  subheading: "You book through Booking.com and Airbnb.
-    Please use the following links:"
-  contactus_text: "Or call us: "
-  contactus_link: "our contacts"
-  airbnb_link: "https://www.airbnb.com/rooms/15885810"
-
 contact:
   subheading: "You can reach us through:"
-  address: "We are on the north side of Bragança, accessible through the major road IP4, at km 217"
-
+  address_text: "We are on the north side of Bragança, accessible through the major road IP4, at km 217"
+  phone_costs: "Call cost to the Portuguese national mobile network"
+  address: "Address"

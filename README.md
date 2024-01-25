@@ -13,7 +13,7 @@ And of course, to [Jekyll](https://jekyllrb.com/).
 navigate to container
 
 ```
-JEKYLL_ENV=production bundle exec jekyll build --destination site
+JEKYLL_ENV=production bundle exec jekyll build --destination docs
 ```
 
 then copy all the content from site folder to the gh-pages branch.
